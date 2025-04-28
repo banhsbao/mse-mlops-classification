@@ -1,0 +1,22 @@
+name: mlops-classification-pipeline
+
+conda_env: conda.yaml
+
+entry_points:
+  generate_data:
+    command: "python -c \"from src.data_utils import generate_data; generate_data()\""
+  
+  train:
+    parameters:
+      hidden_dims: {type: list, default: [64, 32]}
+      lr: {type: float, default: 0.001}
+      batch_size: {type: int, default: 32}
+      epochs: {type: int, default: 20}
+      dropout_rate: {type: float, default: 0.2}
+    command: "python -c \"from src.train import train; train(hidden_dims={hidden_dims}, lr={lr}, batch_size={batch_size}, epochs={epochs}, dropout_rate={dropout_rate})\""
+  
+  tune:
+    command: "python -c \"from src.tune import tune; tune()\""
+  
+  app:
+    command: "cd app && python app.py" 

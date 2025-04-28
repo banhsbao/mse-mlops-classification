@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mlruns/307249148880925805/0039b454565d43a4844753fb9a6762ac/artifacts
+end_time: 1745845364329
+entry_point_name: ''
+experiment_id: '307249148880925805'
+lifecycle_stage: active
+run_id: 0039b454565d43a4844753fb9a6762ac
+run_name: beautiful-shrew-427
+run_uuid: 0039b454565d43a4844753fb9a6762ac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745845361337
+status: 3
+tags: []
+user_id: banhsbaodesu

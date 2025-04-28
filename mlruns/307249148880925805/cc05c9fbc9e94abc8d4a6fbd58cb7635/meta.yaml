@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mlruns/307249148880925805/cc05c9fbc9e94abc8d4a6fbd58cb7635/artifacts
+end_time: 1745845368181
+entry_point_name: ''
+experiment_id: '307249148880925805'
+lifecycle_stage: active
+run_id: cc05c9fbc9e94abc8d4a6fbd58cb7635
+run_name: model_1
+run_uuid: cc05c9fbc9e94abc8d4a6fbd58cb7635
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745845366285
+status: 3
+tags: []
+user_id: banhsbaodesu

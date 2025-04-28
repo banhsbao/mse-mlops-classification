@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mlruns/820584479355948545/d581b2c1d5ad4634867590178a465105/artifacts
+end_time: 1745845145475
+entry_point_name: ''
+experiment_id: '820584479355948545'
+lifecycle_stage: active
+run_id: d581b2c1d5ad4634867590178a465105
+run_name: melodic-dolphin-637
+run_uuid: d581b2c1d5ad4634867590178a465105
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745845145076
+status: 4
+tags: []
+user_id: banhsbaodesu

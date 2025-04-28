@@ -1,0 +1,6 @@
+artifact_location: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mlruns/820584479355948545
+creation_time: 1745845145014
+experiment_id: '820584479355948545'
+last_update_time: 1745845145014
+lifecycle_stage: active
+name: mlp_hyperparameter_tuning

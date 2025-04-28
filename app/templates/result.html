@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MLOps Pipeline - Prediction Result</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .result-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+        .prediction {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+            color: #2196F3;
+        }
+        .features {
+            margin: 15px 0;
+            overflow-wrap: break-word;
+        }
+        .probabilities {
+            margin: 15px 0;
+        }
+        .probability-bar {
+            height: 20px;
+            background-color: #e9ecef;
+            border-radius: 3px;
+            margin-bottom: 10px;
+            position: relative;
+        }
+        .probability-fill {
+            height: 100%;
+            background-color: #4CAF50;
+            border-radius: 3px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0; /* Start at 0 width and set via JS */
+        }
+        .probability-label {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            color: #000;
+            font-weight: bold;
+            line-height: 20px;
+        }
+        .back-btn {
+            background-color: #f44336;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .back-btn:hover {
+            background-color: #d32f2f;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    
+    <div class="result-card">
+        <h2>Prediction:</h2>
+        <div class="prediction">{{ prediction }}</div>
+        
+        <h2>Probabilities:</h2>
+        <div class="probabilities">
+            {% for prob in probabilities %}
+                <div>
+                    <p>Class {{ loop.index0 }}: {{ "%.4f"|format(prob) }}</p>
+                    <div class="probability-bar">
+                        <div class="probability-fill" data-width="{{ prob * 100 }}"></div>
+                        <div class="probability-label">{{ "%.1f"|format(prob * 100) }}%</div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        
+        <h2>Input Features:</h2>
+        <div class="features">
+            {{ features|join(', ') }}
+        </div>
+    </div>
+    
+    <a href="/" class="back-btn">Make Another Prediction</a>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const fills = document.querySelectorAll('.probability-fill');
+            fills.forEach(function(fill) {
+                const width = fill.getAttribute('data-width');
+                fill.style.width = width + '%';
+            });
+        });
+    </script>
+</body>
+</html> 

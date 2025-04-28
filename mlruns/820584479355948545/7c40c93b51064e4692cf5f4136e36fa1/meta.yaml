@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mlruns/820584479355948545/7c40c93b51064e4692cf5f4136e36fa1/artifacts
+end_time: 1745845219240
+entry_point_name: ''
+experiment_id: '820584479355948545'
+lifecycle_stage: active
+run_id: 7c40c93b51064e4692cf5f4136e36fa1
+run_name: hyperparameter_tuning_parent
+run_uuid: 7c40c93b51064e4692cf5f4136e36fa1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745845197773
+status: 3
+tags: []
+user_id: banhsbaodesu

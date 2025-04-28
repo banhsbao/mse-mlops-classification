@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mlruns/0/36d07e84a2944e238cd11b9721ea79cd/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 36d07e84a2944e238cd11b9721ea79cd
+run_name: melodic-pug-499
+run_uuid: 36d07e84a2944e238cd11b9721ea79cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745845268039
+status: 1
+tags: []
+user_id: banhsbaodesu
