@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mse-mlops-classification/mlruns/0/2ce8e37d76f54bad8b17f8341e475c75/artifacts
+end_time: 1745904786816
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2ce8e37d76f54bad8b17f8341e475c75
+run_name: righteous-whale-64
+run_uuid: 2ce8e37d76f54bad8b17f8341e475c75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745904779072
+status: 3
+tags: []
+user_id: banhsbaodesu

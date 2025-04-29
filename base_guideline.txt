@@ -1,0 +1,89 @@
+CÁC BƯỚC THỰC HIỆN DỰ ÁN MLOPS
+
+1. Thiết lập cấu trúc dự án
+   - Tạo cấu trúc thư mục chuẩn (src/, app/, data/, models/)
+   - Cấu hình MLflow trong file MLproject và conda.yaml
+   - Xác định các dependencies trong requirements.txt
+   - Thiết lập git repository để quản lý mã nguồn
+
+2. Xây dựng module tạo dữ liệu
+   - Tạo module data_utils.py để sinh dữ liệu phân loại tổng hợp
+   - Thực hiện phân chia tập train/test
+   - Lưu trữ dữ liệu trong thư mục data/ dưới dạng pickle file
+   - Cung cấp chức năng tải dữ liệu cho quá trình huấn luyện
+
+3. Xây dựng mô hình
+   - Thiết kế mô hình MLPClassifier sử dụng PyTorch
+   - Xây dựng lớp neural network với cấu trúc linh hoạt
+   - Hỗ trợ tùy chỉnh số lượng layers, hidden units và dropout
+   - Cài đặt các phương thức dự đoán và tính xác suất
+
+4. Xây dựng quy trình huấn luyện
+   - Thiết kế quy trình huấn luyện trong train.py
+   - Theo dõi metrics với MLflow (accuracy, loss, f1-score)
+   - Lưu mô hình đã huấn luyện vào thư mục models/
+   - Đánh giá mô hình trên tập test
+
+5. Tối ưu hóa hyperparameter
+   - Cài đặt quá trình tối ưu hyperparameter trong tune.py
+   - Sử dụng hyperopt để tìm kiếm space các tham số
+   - Lưu trữ kết quả thử nghiệm vào MLflow
+   - So sánh các cấu hình khác nhau để tìm mô hình tối ưu
+
+6. Xây dựng ứng dụng web
+   - Phát triển ứng dụng web với Flask trong app/app.py
+   - Thiết kế giao diện người dùng với HTML/CSS trong thư mục templates
+   - Tích hợp mô hình đã huấn luyện vào ứng dụng
+   - Cho phép người dùng tải lên dữ liệu và nhận dự đoán
+
+7. Giải quyết vấn đề tương thích thiết bị
+   - Sử dụng thiết kế responsive cho giao diện web
+   - Kiểm thử trên nhiều thiết bị và trình duyệt
+   - Xử lý các vấn đề tương thích về phần cứng (CPU/GPU)
+   - Cấu hình Docker để đảm bảo nhất quán giữa các môi trường
+
+8. Cải thiện trải nghiệm người dùng
+   - Tối ưu hóa thời gian phản hồi của ứng dụng
+   - Thêm phản hồi trực quan cho kết quả dự đoán
+   - Cung cấp giải thích cho các dự đoán của mô hình
+   - Thiết kế giao diện thân thiện với người dùng
+
+9. Tạo script chạy toàn bộ quy trình
+   - Viết script run_pipeline.sh để tự động hóa toàn bộ quá trình
+   - Thêm script mlflow_ui.sh để quản lý giao diện MLflow
+   - Cấu hình các parameters trong MLproject
+   - Đảm bảo quy trình end-to-end hoạt động đồng bộ
+
+10. Kiểm thử
+    - Viết unit tests cho các components chính
+    - Thực hiện integration testing giữa các modules
+    - Kiểm thử hiệu suất mô hình trên các bộ dữ liệu khác nhau
+    - Xác minh API endpoints và giao diện người dùng
+
+11. Tài liệu
+    - Cập nhật README.md với hướng dẫn sử dụng
+    - Tạo tài liệu API cho các modules
+    - Viết hướng dẫn triển khai và cài đặt
+    - Cung cấp mô tả chi tiết về kiến trúc dự án
+
+Quy trình chạy hoàn chỉnh:
+1. Chạy script run_pipeline.sh để thực hiện toàn bộ quy trình từ sinh dữ liệu đến huấn luyện và đánh giá
+2. Sử dụng mlflow_ui.sh để xem kết quả thí nghiệm qua giao diện web MLflow
+3. Truy cập ứng dụng web để thử nghiệm mô hình trên dữ liệu mới
+4. Sử dụng predict_client.py để thực hiện dự đoán theo batch từ command line
+
+Figure 1: Training Experiments
+![Training Experiments](/assets/training_experiments.png)
+Biểu đồ hiển thị quá trình huấn luyện của mô hình cơ sở, bao gồm accuracy và loss qua các epochs, được theo dõi bởi MLflow.
+
+Figure 2: Fine-tunning
+![Fine-tunning](/assets/fine_tuning.png)
+Quy trình tối ưu hóa hyperparameter với hyperopt, hiển thị không gian tìm kiếm và quá trình hội tụ.
+
+Figure 3: Fine-tunning Comparison
+![Fine-tunning Comparison](/assets/fine_tuning_comparison.png)
+So sánh hiệu suất của các cấu hình mô hình khác nhau sau quá trình tối ưu hyperparameters, với các metrics như accuracy, f1-score và loss.
+
+Figure 4: Saved Models
+![Saved Models](/assets/saved_models.png)
+Cấu trúc của mô hình đã lưu, hiển thị các tham số và kiến trúc mạng neural network.

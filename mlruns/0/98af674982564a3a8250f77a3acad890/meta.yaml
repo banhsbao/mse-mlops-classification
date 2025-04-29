@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mse-mlops-classification/mlruns/0/98af674982564a3a8250f77a3acad890/artifacts
+end_time: 1745904591263
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 98af674982564a3a8250f77a3acad890
+run_name: enthused-skink-124
+run_uuid: 98af674982564a3a8250f77a3acad890
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745904589419
+status: 3
+tags: []
+user_id: banhsbaodesu

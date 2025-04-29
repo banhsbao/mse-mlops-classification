@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mse-mlops-classification/mlruns/0/42d1a3eb56c84fb49cdf8f47e87c49ea/artifacts
+end_time: 1745904644867
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 42d1a3eb56c84fb49cdf8f47e87c49ea
+run_name: wistful-lark-318
+run_uuid: 42d1a3eb56c84fb49cdf8f47e87c49ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745904638658
+status: 3
+tags: []
+user_id: banhsbaodesu

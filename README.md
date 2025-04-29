@@ -1,40 +1,12 @@
-# MLOps Pipeline with PyTorch, MLflow and Flask
+# MLOps Classification Pipeline
 
-This project demonstrates a complete MLOps pipeline that includes:
-- Data generation using sklearn's make_classification
-- PyTorch model implementation (MLP classifier)
-- Training and evaluation
-- Hyperparameter tuning
-- Experiment tracking with MLflow
-- Model registry
-- Flask web application for serving predictions
-
-## Project Structure
-
-```
-.
-├── app/                      # Flask web application
-│   ├── app.py                # Main Flask application
-│   └── templates/            # HTML templates
-│       ├── index.html        # Input form
-│       └── result.html       # Prediction results
-├── data/                     # Data directory (created automatically)
-├── src/                      # Source code
-│   ├── data_utils.py         # Data generation utilities
-│   ├── model.py              # PyTorch MLP model
-│   ├── train.py              # Training script
-│   └── tune.py               # Hyperparameter tuning
-├── conda.yaml                # Conda environment specification
-├── python_env.yaml           # Python environment for MLflow
-├── MLproject                 # MLflow project definition
-├── predict_client.py         # Test client for Flask API
-├── requirements.txt          # Python dependencies
-└── run.py                    # Script to run the pipeline
-```
+A simple MLOps pipeline for training and tuning a neural network classifier using PyTorch and MLflow.
 
 ## Setup
 
-Install dependencies:
+1. Clone this repository
+2. Make sure you have Python 3.9+ installed
+3. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -42,71 +14,69 @@ pip install -r requirements.txt
 
 ## Running the Pipeline
 
-### Option 1: Run each step individually
-
-You can run each step of the pipeline manually:
+You can run the entire pipeline using the provided shell script:
 
 ```bash
-python run.py --step generate
-
-python run.py --step train
-
-python run.py --step tune
-
-python run.py --step app
+./run_pipeline.sh
 ```
 
-### Option 2: Run all steps at once
+This script will:
+1. Initialize MLflow
+2. Generate synthetic classification data
+3. Train a base model
+4. Tune the model hyperparameters
+
+## Running Individual Steps
+
+You can also run individual steps using MLflow:
 
 ```bash
-python run.py --step all
-```
+# Initialize MLflow
+mlflow run . -e init_mlflow
 
-### Option 3: Run using MLflow
-
-```bash
+# Generate synthetic data
 mlflow run . -e generate_data
 
+# Train a base model
 mlflow run . -e train
 
+# Tune hyperparameters
 mlflow run . -e tune
 
+# Run the web app
 mlflow run . -e app
 ```
 
-## Using the Web Application
+## Viewing MLflow UI
 
-1. Start the Flask application:
-   ```
-   python run.py --step app
-   ```
-
-2. Open your web browser and navigate to http://localhost:5000
-
-3. Enter 20 comma-separated feature values in the form and click "Predict"
-
-4. View the prediction result
-
-## Testing the API
-
-You can test the API directly using the provided client:
+To view experiment results and metrics in the MLflow UI, use the provided script:
 
 ```bash
-python predict_client.py
+# Start MLflow UI on default port 5000
+./mlflow_ui.sh
 
-python predict_client.py --random
+# Start MLflow UI on custom port
+./mlflow_ui.sh -p 5002
 
-python predict_client.py --features "0.5,1.2,-0.3,0.8,1.5,-0.7,0.2,0.9,-1.1,0.4,0.6,-0.5,1.0,-0.2,0.3,0.7,-0.9,1.3,-0.4,0.1"
-
-python predict_client.py --generate
+# Stop all running MLflow UI servers
+./mlflow_ui.sh stop
 ```
 
-## Viewing Experiment Results
+## Project Structure
 
-To view the MLflow tracking UI:
+- `src/` - Source code
+  - `data_utils.py` - Functions for generating and loading data
+  - `model.py` - Neural network model definition
+  - `train.py` - Training script
+  - `tune.py` - Hyperparameter tuning script
+  - `init_mlflow.py` - MLflow initialization script
+- `app/` - Web application code
+- `data/` - Stored datasets
+- `models/` - Saved model files
+- `mlruns/` - MLflow experiment tracking data
+- `MLproject` - MLflow project definition
+- `conda.yaml` - Conda environment definition
 
-```bash
-mlflow ui --port 5001
-```
+## License
 
-Then open your browser and navigate to http://localhost:5001 to explore your experiments. 
+This project is open source under the MIT license. 

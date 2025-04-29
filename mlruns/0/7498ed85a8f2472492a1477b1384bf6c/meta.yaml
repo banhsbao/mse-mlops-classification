@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mse-mlops-classification/mlruns/0/7498ed85a8f2472492a1477b1384bf6c/artifacts
+end_time: 1745904835908
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7498ed85a8f2472492a1477b1384bf6c
+run_name: valuable-ray-69
+run_uuid: 7498ed85a8f2472492a1477b1384bf6c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745904834091
+status: 3
+tags: []
+user_id: banhsbaodesu

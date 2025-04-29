@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mse-mlops-classification/mlruns/0/0ecdf9d642d0481cbf10abd83a7b5791/artifacts
+end_time: 1745904661204
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0ecdf9d642d0481cbf10abd83a7b5791
+run_name: abundant-rat-51
+run_uuid: 0ecdf9d642d0481cbf10abd83a7b5791
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745904657900
+status: 4
+tags: []
+user_id: banhsbaodesu

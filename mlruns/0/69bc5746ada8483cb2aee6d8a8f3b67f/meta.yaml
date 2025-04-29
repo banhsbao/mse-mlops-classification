@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mse-mlops-classification/mlruns/0/69bc5746ada8483cb2aee6d8a8f3b67f/artifacts
+end_time: 1745908654858
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 69bc5746ada8483cb2aee6d8a8f3b67f
+run_name: trusting-donkey-675
+run_uuid: 69bc5746ada8483cb2aee6d8a8f3b67f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745908653082
+status: 3
+tags: []
+user_id: banhsbaodesu

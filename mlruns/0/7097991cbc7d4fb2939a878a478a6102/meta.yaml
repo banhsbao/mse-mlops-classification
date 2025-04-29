@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mse-mlops-classification/mlruns/0/7097991cbc7d4fb2939a878a478a6102/artifacts
+end_time: 1745904609834
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7097991cbc7d4fb2939a878a478a6102
+run_name: serious-gull-27
+run_uuid: 7097991cbc7d4fb2939a878a478a6102
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745904602852
+status: 3
+tags: []
+user_id: banhsbaodesu

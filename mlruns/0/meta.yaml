@@ -1,6 +1,6 @@
-artifact_location: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mlruns/0
-creation_time: 1745845133377
+artifact_location: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mse-mlops-classification/mlruns/0
+creation_time: 1745904576887
 experiment_id: '0'
-last_update_time: 1745845133377
+last_update_time: 1745904576887
 lifecycle_stage: active
 name: Default

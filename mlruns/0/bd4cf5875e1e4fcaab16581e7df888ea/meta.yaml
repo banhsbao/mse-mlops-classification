@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mse-mlops-classification/mlruns/0/bd4cf5875e1e4fcaab16581e7df888ea/artifacts
+end_time: 1745908627774
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bd4cf5875e1e4fcaab16581e7df888ea
+run_name: capable-midge-880
+run_uuid: bd4cf5875e1e4fcaab16581e7df888ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745908619313
+status: 3
+tags: []
+user_id: banhsbaodesu

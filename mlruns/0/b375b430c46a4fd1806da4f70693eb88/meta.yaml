@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mse-mlops-classification/mlruns/0/b375b430c46a4fd1806da4f70693eb88/artifacts
+end_time: 1745908348237
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b375b430c46a4fd1806da4f70693eb88
+run_name: crawling-hog-720
+run_uuid: b375b430c46a4fd1806da4f70693eb88
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745908346421
+status: 3
+tags: []
+user_id: banhsbaodesu

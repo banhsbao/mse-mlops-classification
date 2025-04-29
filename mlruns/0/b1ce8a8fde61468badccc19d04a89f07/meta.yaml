@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mse-mlops-classification/mlruns/0/b1ce8a8fde61468badccc19d04a89f07/artifacts
+end_time: 1745908712322
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b1ce8a8fde61468badccc19d04a89f07
+run_name: lyrical-seal-911
+run_uuid: b1ce8a8fde61468badccc19d04a89f07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745908704544
+status: 3
+tags: []
+user_id: banhsbaodesu

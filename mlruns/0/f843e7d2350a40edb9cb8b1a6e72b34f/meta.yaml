@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mse-mlops-classification/mlruns/0/f843e7d2350a40edb9cb8b1a6e72b34f/artifacts
+end_time: 1745904852341
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f843e7d2350a40edb9cb8b1a6e72b34f
+run_name: ambitious-mink-755
+run_uuid: f843e7d2350a40edb9cb8b1a6e72b34f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745904844538
+status: 3
+tags: []
+user_id: banhsbaodesu

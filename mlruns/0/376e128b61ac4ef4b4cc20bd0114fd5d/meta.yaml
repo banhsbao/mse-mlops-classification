@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mse-mlops-classification/mlruns/0/376e128b61ac4ef4b4cc20bd0114fd5d/artifacts
+end_time: 1745908360202
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 376e128b61ac4ef4b4cc20bd0114fd5d
+run_name: sincere-elk-302
+run_uuid: 376e128b61ac4ef4b4cc20bd0114fd5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745908353596
+status: 3
+tags: []
+user_id: banhsbaodesu

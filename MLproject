@@ -3,6 +3,9 @@ name: mlops-classification-pipeline
 conda_env: conda.yaml
 
 entry_points:
+  init_mlflow:
+    command: "python -c \"from src.init_mlflow import init_mlflow; init_mlflow()\""
+    
   generate_data:
     command: "python -c \"from src.data_utils import generate_data; generate_data()\""
   

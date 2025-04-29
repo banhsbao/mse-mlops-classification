@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mse-mlops-classification/mlruns/0/38b9e909f95441b1a2afcf1695c015a4/artifacts
+end_time: 1745905018461
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 38b9e909f95441b1a2afcf1695c015a4
+run_name: likeable-lamb-687
+run_uuid: 38b9e909f95441b1a2afcf1695c015a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745904962722
+status: 4
+tags: []
+user_id: banhsbaodesu

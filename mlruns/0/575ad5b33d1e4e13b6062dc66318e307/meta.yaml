@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mse-mlops-classification/mlruns/0/575ad5b33d1e4e13b6062dc66318e307/artifacts
+end_time: 1745908685477
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 575ad5b33d1e4e13b6062dc66318e307
+run_name: monumental-colt-504
+run_uuid: 575ad5b33d1e4e13b6062dc66318e307
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745908679455
+status: 3
+tags: []
+user_id: banhsbaodesu

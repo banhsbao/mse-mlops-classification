@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mse-mlops-classification/mlruns/0/efac0a32c3a843b2971a4c7391086aa6/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: efac0a32c3a843b2971a4c7391086aa6
+run_name: bustling-moth-432
+run_uuid: efac0a32c3a843b2971a4c7391086aa6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745908939960
+status: 1
+tags: []
+user_id: banhsbaodesu

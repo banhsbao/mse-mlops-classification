@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mse-mlops-classification/mlruns/0/08d11abda129418b9bb40001332750ea/artifacts
+end_time: 1745908340362
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 08d11abda129418b9bb40001332750ea
+run_name: delightful-crow-188
+run_uuid: 08d11abda129418b9bb40001332750ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745908338269
+status: 3
+tags: []
+user_id: banhsbaodesu

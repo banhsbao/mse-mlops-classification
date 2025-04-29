@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mse-mlops-classification/mlruns/0/5aa37bd4d0b64f93bb4e3b72770db057/artifacts
+end_time: 1745904579182
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5aa37bd4d0b64f93bb4e3b72770db057
+run_name: rogue-quail-897
+run_uuid: 5aa37bd4d0b64f93bb4e3b72770db057
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745904576888
+status: 3
+tags: []
+user_id: banhsbaodesu

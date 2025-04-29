@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mse-mlops-classification/mlruns/0/eb91de03c4e04cc380aae2ecb030a834/artifacts
+end_time: 1745904637385
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eb91de03c4e04cc380aae2ecb030a834
+run_name: vaunted-kite-187
+run_uuid: eb91de03c4e04cc380aae2ecb030a834
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745904635539
+status: 3
+tags: []
+user_id: banhsbaodesu

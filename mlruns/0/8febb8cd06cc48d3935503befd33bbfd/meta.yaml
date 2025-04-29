@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/banhsbaodesu/Desktop/learning/master/MLOp/mse-mlops-classification/mlruns/0/8febb8cd06cc48d3935503befd33bbfd/artifacts
+end_time: 1745904843221
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8febb8cd06cc48d3935503befd33bbfd
+run_name: smiling-doe-186
+run_uuid: 8febb8cd06cc48d3935503befd33bbfd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745904837186
+status: 3
+tags: []
+user_id: banhsbaodesu
